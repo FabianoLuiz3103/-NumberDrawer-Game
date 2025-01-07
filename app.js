@@ -1,10 +1,9 @@
-let btnReiniciar = document.getElementById('btn-reiniciar');
+const btnReiniciar = document.getElementById('btn-reiniciar');
+const resultado = document.getElementById('resultado');
 let numerosGerados = [];
-let resultado = document.getElementById('resultado');
+
 
 function sortear(){
-
-
     let quantidade = parseInt(document.getElementById('quantidade').value);
     let de = parseInt(document.getElementById('de').value);
     let ate = parseInt(document.getElementById('ate').value);
